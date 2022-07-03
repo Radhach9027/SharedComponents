@@ -16,7 +16,7 @@ public final class ImageLoader: UIImageView {
         return indicator
     }()
     
-    init(network: NetworkProtocol = Network(session: URLSession.cacheSession)) {
+    public init(network: NetworkProtocol = Network(session: URLSession.cacheSession)) {
         self.network = network
         super.init(frame: .zero)
         setup()
@@ -26,7 +26,7 @@ public final class ImageLoader: UIImageView {
         super.init(coder: coder)
     }
     
-    func loadImageWithUrl(_ url: URL) {
+    public func loadImageWithUrl(_ url: URL) {
         imageURL = url
         image = nil
         activityIndicator.startAnimating()
