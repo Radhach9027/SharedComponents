@@ -10,5 +10,23 @@
 			<integer>0</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>SharedComponents</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SharedComponentsTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>SharedComponents_SharedComponents</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
